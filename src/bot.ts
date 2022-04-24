@@ -21,7 +21,7 @@ console.log(
 // * Using Slash Commands with Cocoa Discord Utils 🍫
 const salimCenter = new SlashCenter(
     sclient.client,
-    process.env.GUILD_IDS?.split(",")
+    process.env.OTQ4NDQ2MTk1MTU0NTgzNTcy.Yh77Wg.vyiGi14nbNEstW1VkFdvgmuRegw.split(",")
 );
 salimCenter.addCogs(new Salim(), new QuizCog(sclient.client));
 salimCenter.useHelpCommand(style);
